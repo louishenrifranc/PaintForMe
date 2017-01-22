@@ -21,4 +21,10 @@ To reproduce the results:
 5. Launch the server with ```python backend.py```
 
 # Examples
+### Example with a Painting
+![](https://github.com/ConUHacks/image_to_painting/demos/demo1.gif)
+### Example with a Picture
+![](https://github.com/ConUHacks/image_to_painting/demos/demo2.gif)
+
+
 _(still training the accuracy of the backend)_
