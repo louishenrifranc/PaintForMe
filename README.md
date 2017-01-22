@@ -8,7 +8,7 @@
 * Launch the app
 
 # Play with the server
-* To reproduce the results
+To reproduce the results:
 1. Download the dataset at ![kaggle.com](https://www.kaggle.com/c/painter-by-numbers/data)
 2. Download the neural networks weights at ![google drive](https://drive.google.com/file/d/0Bz7KyqmuGsilZ2RVeVhKY0FyRmc/view)
 3. Compute the vector representation for painting using ```script_python/model.py```
@@ -16,4 +16,4 @@
 5. Launch the server with ```python backend.py```
 
 # Examples
-(still training the model)
+_(still training the accuracy of the backend)_
