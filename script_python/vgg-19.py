@@ -15,8 +15,9 @@ config = {
     "databaseURL": "https://firstproject-b3334.firebaseio.com/",
     "storageBucket": "firstproject-b3334.appspot.com"
 }
-email = "louishenrifranc@gmail.com"
-password = "groscaca"
+email = raw_input("Enter Firebase email:\n")
+password = raw_input("Enter Firebase password:\n")
+
 
 
 def VGG_19(weights_path=None):
