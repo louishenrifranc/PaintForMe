@@ -1,3 +1,8 @@
+Do you feel a lack of creativity while drawing sometimes? 
+Stuck at a museum in front of La Joconde, ever wanted to find closely looking alike painting?  
+Just bored about life, make your routine panorama looking alike a painting?
+__Download the Painter app__
+
 # Painter
 * Take a picture with your phone, or search on on your local drive. 
 * Send the picture to the server, and wait for paintings which are similar in the style of the initial sended picture.
