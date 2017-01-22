@@ -1,6 +1,7 @@
 package com.example.lh.painter.painter.activity;
 
 import android.app.FragmentTransaction;
+import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
@@ -56,30 +57,7 @@ public class Main2Activity extends AppCompatActivity {
     private DatabaseReference mDatabase;
     private Integer nbfile;
     private String filename;
-
-    class MyValueEventListener implements ValueEventListener {
-        public Integer counter;
-
-        public MyValueEventListener() {
-            counter = 0;
-        }
-
-        @Override
-        public void onDataChange(DataSnapshot dataSnapshot) {
-            if (dataSnapshot.getValue() == null) {
-                return;
-            }
-            HashMap<String, String> hashMap = (HashMap<String, String>) dataSnapshot.getValue();
-            Log.d("12345", "Number of classes");
-            Log.d("111", Integer.toString(counter));
-            mAdapter.notifyDataSetChanged();
-        }
-
-        @Override
-        public void onCancelled(DatabaseError databaseError) {
-
-        }
-    }
+    private Handler handler;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -97,7 +75,6 @@ public class Main2Activity extends AppCompatActivity {
 
         recyclerView.setLayoutManager(mLayoutManager);
         recyclerView.setItemAnimator(new DefaultItemAnimator());
-        recyclerView.setAdapter(mAdapter);
 
         recyclerView.addOnItemTouchListener(new GalleryAdapter.RecyclerTouchListener(getApplicationContext(), recyclerView, new GalleryAdapter.ClickListener() {
             @Override
@@ -118,14 +95,20 @@ public class Main2Activity extends AppCompatActivity {
             }
         }));
 
-        mStorage = FirebaseStorage.getInstance();
-        mStorageRef = mStorage.getReferenceFromUrl("gs://firstproject-b3334.appspot.com");
-        mStorageRef = mStorageRef.child("similar_images/");
-        mDatabase = FirebaseDatabase.getInstance().getReference();
 
-        MyValueEventListener postListener = new MyValueEventListener();
-        mDatabase.addValueEventListener(postListener);
+        Runnable r = new Runnable() {
+            @Override
+            public void run(){
+                recyclerView.setAdapter(mAdapter);
+            }
+        };
+        handler = new Handler();
+        handler.postDelayed(r, 20000);
     }
+
+
+
+
 
     @Override
     protected void onDestroy() {

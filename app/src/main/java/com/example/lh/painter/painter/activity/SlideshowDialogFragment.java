@@ -35,9 +35,11 @@ public class SlideshowDialogFragment extends DialogFragment {
     private int selectedPosition = 0;
     private FirebaseStorage mStorage;
     private StorageReference mStorageRef;
+    private static String mFilename;
 
-    static SlideshowDialogFragment newInstance() {
+    static SlideshowDialogFragment newInstance(String filename) {
         SlideshowDialogFragment f = new SlideshowDialogFragment();
+        mFilename = filename;
         return f;
     }
 
@@ -46,7 +48,7 @@ public class SlideshowDialogFragment extends DialogFragment {
                              Bundle savedInstanceState) {
         mStorage = FirebaseStorage.getInstance();
         mStorageRef = mStorage.getReferenceFromUrl("gs://firstproject-b3334.appspot.com");
-        mStorageRef = mStorageRef.child("similar_images/");
+        mStorageRef = mStorageRef.child("similar_images");
         View v = inflater.inflate(R.layout.fragment_image_slider, container, false);
         viewPager = (ViewPager) v.findViewById(R.id.viewpager);
         lblCount = (TextView) v.findViewById(R.id.lbl_count);
@@ -123,7 +125,7 @@ public class SlideshowDialogFragment extends DialogFragment {
             ImageView imageViewPreview = (ImageView) view.findViewById(R.id.image_preview);
 
             Image image = images.get(position);
-            StorageReference imageRef = mStorageRef.child("file" + Integer.toString(position) + ".jpg");
+            StorageReference imageRef = mStorageRef.child(mFilename + Integer.toString(position) + ".jpg");
 
             Glide.with(getActivity()).load(imageRef)
                     .thumbnail(0.5f)

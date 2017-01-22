@@ -16,8 +16,9 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="48dp"
         android:background="@color/colorAccent"
-        android:text="Open camera"
-        android:textColor="@color/cameraPrimary"
+        android:text=" Open camera "
+        android:textColor="@android:color/white"
+        android:textSize="16dp"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
@@ -29,8 +30,9 @@
         android:layout_marginBottom="16dp"
         android:layout_marginTop="8dp"
         android:background="@color/colorAccent"
-        android:text="Browse file locally"
-        android:textColor="@color/cameraPrimary"
+        android:text=" Browse image locally "
+        android:textColor="@android:color/white"
+        android:textSize="16dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="@+id/camera"
         app:layout_constraintRight_toRightOf="@+id/camera"
@@ -54,22 +56,42 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="49dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="56dp"
+        android:background="@color/colorAccent"
+        android:text=" NUMBER OF IMAGES\n TO RETRIEVE "
+        android:textSize="16dp"
+        android:gravity="center"
+
+        android:textColor="@android:color/white"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/file" />
+
     <EditText
         android:id="@+id/editText"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="16dp"
+        android:layout_width="139dp"
+        android:layout_height="49dp"
         android:layout_marginEnd="16dp"
-        android:layout_marginLeft="16dp"
+        android:layout_marginLeft="8dp"
         android:layout_marginRight="16dp"
-        android:layout_marginStart="16dp"
+        android:layout_marginStart="8dp"
+
         android:layout_marginTop="8dp"
+        android:background="@color/colorAccent"
         android:ems="10"
-        android:hint="Number of images to retrieve"
         android:inputType="number"
-        android:text="6"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
+        android:textColor="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="@+id/textView3"
+        app:layout_constraintHorizontal_bias="0.33"
+        app:layout_constraintLeft_toRightOf="@+id/textView3"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/file" />
+        app:layout_constraintTop_toBottomOf="@+id/file"
+        app:layout_constraintVertical_bias="1.0" />
+
+
 </android.support.constraint.ConstraintLayout>

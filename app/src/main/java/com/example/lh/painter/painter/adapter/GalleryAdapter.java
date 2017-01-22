@@ -70,7 +70,7 @@ public class GalleryAdapter extends RecyclerView.Adapter<GalleryAdapter.MyViewHo
 
     @Override
     public void onBindViewHolder(MyViewHolder holder, int position) {
-        Log.d("1234", "Position: " + Integer.toString(position) + filename);
+        Log.d("1234", "Position: " + filename + Integer.toString(position));
         StorageReference imageRef = mStorageRef.child(filename + Integer.toString(position) + ".jpg");
         Glide.with(mContext).using(new FirebaseImageLoader())
                 .load(imageRef)
