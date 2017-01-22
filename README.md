@@ -22,9 +22,9 @@ To reproduce the results:
 
 # Examples
 ### Example with a Painting
-![](https://github.com/ConUHacks/image_to_painting/demos/demo1.gif)
+![](https://github.com/ConUHacks/image_to_painting/blob/master/demos/demo1.gif)
 ### Example with a Picture
-![](https://github.com/ConUHacks/image_to_painting/demos/demo2.gif)
+![](https://github.com/ConUHacks/image_to_painting/blob/master/demos/demo2.gif)
 
 
 _(still training the accuracy of the backend)_
