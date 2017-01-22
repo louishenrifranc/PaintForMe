@@ -10,10 +10,10 @@ import pyrebase
 from sklearn.metrics.pairwise import cosine_similarity
 
 config = {
-    "apiKey": "AIzaSyCPnBdXhBl-h37lAfjngMpm28s0dLQ1FJs",
-    "authDomain": "firstproject-b3334.firebaseapp.com",
-    "databaseURL": "https://firstproject-b3334.firebaseio.com/",
-    "storageBucket": "firstproject-b3334.appspot.com"
+    "apiKey": "",
+    "authDomain": "",
+    "databaseURL": "",
+    "storageBucket": ""
 }
 email = raw_input("Enter Firebase email:\n")
 password = raw_input("Enter Firebase password:\n")
