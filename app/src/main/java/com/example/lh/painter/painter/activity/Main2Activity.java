@@ -84,7 +84,7 @@ public class Main2Activity extends AppCompatActivity {
                 bundle.putInt("position", position);
 
                 android.support.v4.app.FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
-                SlideshowDialogFragment newFragment = SlideshowDialogFragment.newInstance();
+                SlideshowDialogFragment newFragment = SlideshowDialogFragment.newInstance(filename);
                 newFragment.setArguments(bundle);
                 newFragment.show(ft, "slideshow");
             }
@@ -98,16 +98,13 @@ public class Main2Activity extends AppCompatActivity {
 
         Runnable r = new Runnable() {
             @Override
-            public void run(){
+            public void run() {
                 recyclerView.setAdapter(mAdapter);
             }
         };
         handler = new Handler();
         handler.postDelayed(r, 20000);
     }
-
-
-
 
 
     @Override
