@@ -12,7 +12,7 @@ http://www.inference.vc/content/images/2016/01/9k-.jpg
 # Examples
 * Example with a picture of building:  
 ![](https://github.com/ConUHacks/image_to_painting/blob/master/demos/demo1.gif)
-* Example with a horse picture:  
+* Example with a picture of Venise:  
 ![](https://github.com/ConUHacks/image_to_painting/blob/master/demos/demo2.gif)
 * Example with a garden picture:  
 ![](https://github.com/ConUHacks/image_to_painting/blob/master/demos/demo3.gif)
