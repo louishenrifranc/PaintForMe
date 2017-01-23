@@ -6,17 +6,7 @@ from PIL import Image
 import numpy as np
 import os
 import cPickle
-import pyrebase
 from sklearn.metrics.pairwise import cosine_similarity
-
-config = {
-    "apiKey": "",
-    "authDomain": "",
-    "databaseURL": "",
-    "storageBucket": ""
-}
-email = raw_input("Enter Firebase email:\n")
-password = raw_input("Enter Firebase password:\n")
 
 
 
@@ -79,11 +69,6 @@ def VGG_19(weights_path=None):
     return model, model2
 
 
-firebase = pyrebase.initialize_app(config)
-auth = firebase.auth()
-user = auth.sign_in_with_email_and_password(email, password)
-database = firebase.database()
-storage = firebase.storage()
 
 
 def get_matched_image(hash_map, filename, nb_matches=6):
@@ -101,25 +86,6 @@ def get_matched_image(hash_map, filename, nb_matches=6):
     matched_file_name = sorted(cosine_similarities, key=cosine_similarities.get)[:nb_matches]
     return matched_file_name
 
-
-def stream_handler(message):
-    print(message["event"])  # put
-    print(message["path"])  # /-K7yGTTEp7O549EzTYtI
-    print(message["data"])  # {'title': 'Pyrebase', "body": "etc..."}
-    print(message["data"])
-    if message["data"] is not None:
-        filename = message["data"]["filename"]
-        storage.child("images/" + filename).download(filename)
-        print("Image saved")
-        matched_file_name = get_matched_image(hash_map, filename)
-        for index, filename in enumerate(matched_file_name):
-            print(filename + str(index) + ".jpg")
-            storage.child("similar_images/" + filename + str(index) + ".jpg").put("wikiart/train/" + filename)
-
-        database.child("similar_images/").push({"file": filename})
-
-
-database.child("messages").stream(stream_handler)
 
 if __name__ == "__main__":
     hash_map = {}
