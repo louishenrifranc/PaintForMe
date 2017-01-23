@@ -88,10 +88,10 @@ model, model2 = VGG_19("vgg19_weights.h5")
 graph = tf.get_default_graph()
 
 hash_map = cPickle.load(open("vectors.p", 'r'))
-NB_MATCHES = 2
-password = input()
+default_nb_matches = 2
 
-def get_matched_image(hash_map, filename, nb_matches=NB_MATCHES):
+
+def get_matched_image(hash_map, filename, nb_matches=default_nb_matches):
     img = Image.open(filename).convert("RGB")
     img = np.array(img)
     img = cv2.resize(img, (224, 224)).astype(np.float32)
@@ -110,9 +110,9 @@ def get_matched_image(hash_map, filename, nb_matches=NB_MATCHES):
 
 
 def stream_handler(message):
-    print(message["event"])  # put
-    print(message["path"])  # /-K7yGTTEp7O549EzTYtI
-    print(message["data"])  # {'title': 'Pyrebase', "body": "etc..."}
+    print(message["event"])  
+    print(message["path"])  
+    print(message["data"])  
     print(message["data"])
     if message["data"] is not None:
         filenameM = message["data"]["filename"]
@@ -120,11 +120,10 @@ def stream_handler(message):
         storage.child("images/" + filenameM).download(filenameM)
         print("New image received")
         matched_file_name = get_matched_image(hash_map, filenameM, nb_matches=nbFileToRetrieve)
-        print("Finded similar images")
+        print("Found similar images")
         for index, filename in enumerate(matched_file_name):
-            print(filenameM + str(index) + ".jpg")
             storage.child("similar_images/" + filenameM + str(index) + ".jpg").put("wikiart/train/" + filename)
-        print("Similar file upload, notifying the app")
+        print("Similar file uploaded")
 
 
 database.child("messages").stream(stream_handler)
