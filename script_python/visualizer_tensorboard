@@ -1,0 +1,96 @@
+from tensorflow.contrib.tensorboard.plugins import projector
+import tensorflow as tf
+import numpy as np
+import cPickle
+import os
+from PIL import Image
+import cv2
+
+nb_images = 900  # 30 au carre
+thumbnail_width = 28  # width of a small thumbnail
+thumbnail_height = thumbnail_width  # height
+
+embeddings_length = 4096  # size of the embeddings
+
+# 1. Make the big spirit picture
+filename_spirit_picture = "master.jpg"
+filename_temporary_embedding = "features.p"
+print("Loading embeddings")
+dictionary = cPickle.load(open("vectors.p"))
+print('Embedding loaded')
+if not os.path.isfile(filename_spirit_picture) or not os.path.isfile(filename_temporary_embedding):
+    print("Creating spirit")
+    Image.MAX_IMAGE_PIXELS = None
+    images = []
+
+    features = np.zeros((len(dictionary), embeddings_length))
+
+    # Make a vector for all images and a list for their respective embedding (same index)
+    for iteration, filename in enumerate(os.listdir("wikiart/train")):
+        if iteration >= nb_images:
+            break
+        # Load the image
+        img = Image.open("wikiart/train/" + filename).convert("L")
+        array = np.array(img)
+        # Reduce the dimensionnality
+        array = cv2.resize(array, (thumbnail_width, thumbnail_height)).astype(np.float32)
+        img = Image.fromarray(np.uint8(array))
+        # Append the image to the list of images
+        images.append(img)
+        # Get the embedding for that picture
+        features[iteration] = dictionary[filename]
+
+    # Build the spirit image
+    print('Number of images %d' % len(images))
+    image_width, image_height = images[0].size
+    master_width = (image_width * (int)(np.sqrt(len(images))))
+    master_height = master_width
+    print('Length (in pixel) of the square image %d' % master_width)
+    master = Image.new(
+        mode='RGBA',
+        size=(master_width, master_height),
+        color=(0, 0, 0, 0))
+
+    for count, image in enumerate(images):
+        locationX = (image_width * count) % master_width
+        locationY = image_height * (image_width * count // master_width)
+        master.paste(image, (locationX, locationY))
+    master.save(filename_spirit_picture, transparency=0)
+    cPickle.dump(features, open(filename_temporary_embedding, 'w'))
+else:
+    print('Spirit already created')
+    features = cPickle.load(open(filename_temporary_embedding, 'r'))
+
+print('Starting session')
+sess = tf.InteractiveSession()
+log_dir = 'logs/'
+
+embeddings = tf.Variable(features, name='embeddings')
+
+# make log directory if not exists
+log_dir = 'logs/'
+if tf.gfile.Exists(log_dir):
+    tf.gfile.DeleteRecursively(log_dir)
+tf.gfile.MakeDirs(log_dir)
+tf.global_variables_initializer().run()
+saver = tf.train.Saver()
+saver.save(sess, save_path=log_dir + 'model.ckpt', global_step=None)
+
+# add metadata
+summary_writer = tf.summary.FileWriter(log_dir, graph=tf.get_default_graph())
+
+config = projector.ProjectorConfig()
+embedding = config.embeddings.add()
+
+print('Add metadata')
+embedding.tensor_name = embeddings.name
+
+# add image metadata
+embedding.sprite.image_path = filename_spirit_picture
+embedding.sprite.single_image_dim.extend([thumbnail_width, thumbnail_height])
+projector.visualize_embeddings(summary_writer, config)
+
+print('Finish now clean repo')
+# Clean actual repo
+# os.remove(filename_spirit_picture)
+# os.remove(filename_temporary_embedding)
