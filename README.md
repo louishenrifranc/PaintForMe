@@ -8,6 +8,18 @@ __Download the PaintForMe app__
 * Take a picture with your phone, or search on on your local drive. 
 * Send the picture to the server, and wait for paintings which are similar in the style of the initial sended picture.
 http://www.inference.vc/content/images/2016/01/9k-.jpg
+
+# Examples
+* Example with a picture of building:  
+![](https://github.com/ConUHacks/image_to_painting/blob/master/demos/demo1.gif)
+* Example with a horse picture:  
+![](https://github.com/ConUHacks/image_to_painting/blob/master/demos/demo2.gif)
+* Example with a garden picture:  
+![](https://github.com/ConUHacks/image_to_painting/blob/master/demos/demo3.gif)
+* Example with La Joconde:  
+![](https://github.com/ConUHacks/image_to_painting/blob/master/demos/demo4.gif)  
+_(still training the accuracy)_
+
 # Usage
 ## Play with the app
 * Get a Firebase Account, setup your 'google-services.json' and build a new project
@@ -22,13 +34,7 @@ To reproduce the results:
 4. Set Firebase config credentials in the ```backend.py```. For more information about the api, I used ![pyrebase](https://github.com/thisbejim/Pyrebase#database)  
 5. Launch the server with ```python backend.py```  
 
-## Examples
-### Example with a Painting
-![](https://github.com/ConUHacks/image_to_painting/blob/master/demos/demo1.gif)
-### Example with a Picture
-![](https://github.com/ConUHacks/image_to_painting/blob/master/demos/demo2.gif)
-_(still training the accuracy)_
-# Visualisation
+# Visualisation of the latent space
 Visualisation of a set of pictures using PCA algorithm and tensorboard Embedding
 ![](https://github.com/ConUHacks/image_to_painting/blob/master/demos/visualisation.gif)
 
