@@ -1,0 +1,7 @@
+#Mon Jan 23 10:50:58 EST 2017
+base.0=/home/lh/firebase_project/Painter/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_78e73eef8059b1a54c503b13b331bf88a5c11dc2
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=/home/lh/firebase_project/Painter/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_98671fad2da94de6052a64f6d69c84fd582bdb29/classes.dex
+base.1=/home/lh/firebase_project/Painter/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_98671fad2da94de6052a64f6d69c84fd582bdb29
+file.0=/home/lh/firebase_project/Painter/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_78e73eef8059b1a54c503b13b331bf88a5c11dc2/classes.dex

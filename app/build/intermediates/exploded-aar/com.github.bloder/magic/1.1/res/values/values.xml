@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MagicButton"><attr format="string" name="hide_text"/><attr format="color" name="expandable_area_color"/><attr format="color" name="icon_button_color"/><attr format="dimension" name="magic_button_size"/><attr format="integer" name="button_icon"/><attr format="dimension" name="button_icon_width"/><attr format="dimension" name="button_icon_height"/><attr format="dimension" name="hide_text_size"/><attr format="color" name="hide_text_color"/></declare-styleable>
+    <string name="app_name">Magic</string>
+</resources>

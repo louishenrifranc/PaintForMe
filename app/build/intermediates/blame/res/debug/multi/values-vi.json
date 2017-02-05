@@ -1,0 +1,1128 @@
+[
+    {
+        "outputFile": "/home/lh/firebase_project/Painter/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-vi/values-vi.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 105,
+                    "endColumn": 113,
+                    "endOffset": 214
+                },
+                "from": {
+                    "file": "/home/lh/firebase_project/Painter/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-vi/values-vi.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 113,
+                        "endOffset": 164
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 219,
+                    "endColumn": 107,
+                    "endOffset": 322
+                },
+                "from": {
+                    "file": "/home/lh/firebase_project/Painter/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-vi/values-vi.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 169,
+                        "endColumn": 107,
+                        "endOffset": 272
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 327,
+                    "endColumn": 122,
+                    "endOffset": 445
+                },
+                "from": {
+                    "file": "/home/lh/firebase_project/Painter/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-vi/values-vi.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 277,
+                        "endColumn": 122,
+                        "endOffset": 395
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 450,
+                    "endColumn": 107,
+                    "endOffset": 553
+                },
+                "from": {
+                    "file": "/home/lh/firebase_project/Painter/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-vi/values-vi.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 400,
+                        "endColumn": 107,
+                        "endOffset": 503
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 558,
+                    "endColumn": 108,
+                    "endOffset": 662
+                },
+                "from": {
+                    "file": "/home/lh/firebase_project/Painter/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-vi/values-vi.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 508,
+                        "endColumn": 108,
+                        "endOffset": 612
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 667,
+                    "endColumn": 83,
+                    "endOffset": 746
+                },
+                "from": {
+                    "file": "/home/lh/firebase_project/Painter/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-vi/values-vi.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 617,
+                        "endColumn": 83,
+                        "endOffset": 696
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 751,
+                    "endColumn": 102,
+                    "endOffset": 849
+                },
+                "from": {
+                    "file": "/home/lh/firebase_project/Painter/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-vi/values-vi.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 701,
+                        "endColumn": 102,
+                        "endOffset": 799
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 854,
+                    "endColumn": 118,
+                    "endOffset": 968
+                },
+                "from": {
+                    "file": "/home/lh/firebase_project/Painter/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-vi/values-vi.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 804,
+                        "endColumn": 118,
+                        "endOffset": 918
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 973,
+                    "endColumn": 76,
+                    "endOffset": 1045
+                },
+                "from": {
+                    "file": "/home/lh/firebase_project/Painter/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-vi/values-vi.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 923,
+                        "endColumn": 76,
+                        "endOffset": 995
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 1050,
+                    "endColumn": 76,
+                    "endOffset": 1122
+                },
+                "from": {
+                    "file": "/home/lh/firebase_project/Painter/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-vi/values-vi.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 1000,
+                        "endColumn": 76,
+                        "endOffset": 1072
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 1127,
+                    "endColumn": 83,
+                    "endOffset": 1206
+                },
+                "from": {
+                    "file": "/home/lh/firebase_project/Painter/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-vi/values-vi.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 1077,
+                        "endColumn": 83,
+                        "endOffset": 1156
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 1211,
+                    "endColumn": 103,
+                    "endOffset": 1310
+                },
+                "from": {
+                    "file": "/home/lh/firebase_project/Painter/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-vi/values-vi.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 1161,
+                        "endColumn": 103,
+                        "endOffset": 1260
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 1315,
+                    "endColumn": 108,
+                    "endOffset": 1419
+                },
+                "from": {
+                    "file": "/home/lh/firebase_project/Painter/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-vi/values-vi.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 1265,
+                        "endColumn": 108,
+                        "endOffset": 1369
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 1424,
+                    "endColumn": 100,
+                    "endOffset": 1520
+                },
+                "from": {
+                    "file": "/home/lh/firebase_project/Painter/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-vi/values-vi.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 1374,
+                        "endColumn": 100,
+                        "endOffset": 1470
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 1525,
+                    "endColumn": 104,
+                    "endOffset": 1625
+                },
+                "from": {
+                    "file": "/home/lh/firebase_project/Painter/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-vi/values-vi.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 1475,
+                        "endColumn": 104,
+                        "endOffset": 1575
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 1630,
+                    "endColumn": 113,
+                    "endOffset": 1739
+                },
+                "from": {
+                    "file": "/home/lh/firebase_project/Painter/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-vi/values-vi.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 1580,
+                        "endColumn": 113,
+                        "endOffset": 1689
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 1744,
+                    "endColumn": 104,
+                    "endOffset": 1844
+                },
+                "from": {
+                    "file": "/home/lh/firebase_project/Painter/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-vi/values-vi.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 1694,
+                        "endColumn": 104,
+                        "endOffset": 1794
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 1849,
+                    "endColumn": 119,
+                    "endOffset": 1964
+                },
+                "from": {
+                    "file": "/home/lh/firebase_project/Painter/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-vi/values-vi.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 1799,
+                        "endColumn": 119,
+                        "endOffset": 1914
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 1969,
+                    "endColumn": 98,
+                    "endOffset": 2063
+                },
+                "from": {
+                    "file": "/home/lh/firebase_project/Painter/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-vi/values-vi.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 1919,
+                        "endColumn": 98,
+                        "endOffset": 2013
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 2068,
+                    "endColumn": 173,
+                    "endOffset": 2237
+                },
+                "from": {
+                    "file": "/home/lh/firebase_project/Painter/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.14.1/res/values-vi/values-vi.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 173,
+                        "endOffset": 224
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 2242,
+                    "endColumn": 100,
+                    "endOffset": 2338
+                },
+                "from": {
+                    "file": "/home/lh/firebase_project/Painter/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.14.1/res/values-vi/values-vi.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 229,
+                        "endColumn": 100,
+                        "endOffset": 325
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 23,
+                    "startColumn": 4,
+                    "startOffset": 2343,
+                    "endColumn": 118,
+                    "endOffset": 2457
+                },
+                "from": {
+                    "file": "/home/lh/firebase_project/Painter/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.14.1/res/values-vi/values-vi.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 330,
+                        "endColumn": 118,
+                        "endOffset": 444
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 24,
+                    "startColumn": 4,
+                    "startOffset": 2462,
+                    "endColumn": 92,
+                    "endOffset": 2550
+                },
+                "from": {
+                    "file": "/home/lh/firebase_project/Painter/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.14.1/res/values-vi/values-vi.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 449,
+                        "endColumn": 92,
+                        "endOffset": 537
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 25,
+                    "startColumn": 4,
+                    "startOffset": 2555,
+                    "endColumn": 67,
+                    "endOffset": 2618
+                },
+                "from": {
+                    "file": "/home/lh/firebase_project/Painter/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.14.1/res/values-vi/values-vi.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 542,
+                        "endColumn": 67,
+                        "endOffset": 605
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 26,
+                    "startColumn": 4,
+                    "startOffset": 2623,
+                    "endColumn": 68,
+                    "endOffset": 2687
+                },
+                "from": {
+                    "file": "/home/lh/firebase_project/Painter/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.14.1/res/values-vi/values-vi.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 610,
+                        "endColumn": 68,
+                        "endOffset": 674
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 27,
+                    "startColumn": 4,
+                    "startOffset": 2692,
+                    "endColumn": 60,
+                    "endOffset": 2748
+                },
+                "from": {
+                    "file": "/home/lh/firebase_project/Painter/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.14.1/res/values-vi/values-vi.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 679,
+                        "endColumn": 60,
+                        "endOffset": 735
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 28,
+                    "startColumn": 4,
+                    "startOffset": 2753,
+                    "endColumn": 68,
+                    "endOffset": 2817
+                },
+                "from": {
+                    "file": "/home/lh/firebase_project/Painter/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.14.1/res/values-vi/values-vi.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 740,
+                        "endColumn": 68,
+                        "endOffset": 804
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 29,
+                    "startColumn": 4,
+                    "startOffset": 2822,
+                    "endColumn": 74,
+                    "endOffset": 2892
+                },
+                "from": {
+                    "file": "/home/lh/firebase_project/Painter/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.14.1/res/values-vi/values-vi.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 809,
+                        "endColumn": 74,
+                        "endOffset": 879
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 30,
+                    "startColumn": 4,
+                    "startOffset": 2897,
+                    "endColumn": 93,
+                    "endOffset": 2986
+                },
+                "from": {
+                    "file": "/home/lh/firebase_project/Painter/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.14.1/res/values-vi/values-vi.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 884,
+                        "endColumn": 93,
+                        "endOffset": 973
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 31,
+                    "startColumn": 4,
+                    "startOffset": 2991,
+                    "endColumn": 75,
+                    "endOffset": 3062
+                },
+                "from": {
+                    "file": "/home/lh/firebase_project/Painter/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.14.1/res/values-vi/values-vi.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 978,
+                        "endColumn": 75,
+                        "endOffset": 1049
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 32,
+                    "startColumn": 4,
+                    "startOffset": 3067,
+                    "endColumn": 75,
+                    "endOffset": 3138
+                },
+                "from": {
+                    "file": "/home/lh/firebase_project/Painter/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.14.1/res/values-vi/values-vi.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 1054,
+                        "endColumn": 75,
+                        "endOffset": 1125
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 33,
+                    "startColumn": 4,
+                    "startOffset": 3143,
+                    "endColumn": 97,
+                    "endOffset": 3236
+                },
+                "from": {
+                    "file": "/home/lh/firebase_project/Painter/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.14.1/res/values-vi/values-vi.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 1130,
+                        "endColumn": 97,
+                        "endOffset": 1223
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 34,
+                    "startColumn": 4,
+                    "startOffset": 3241,
+                    "endColumn": 102,
+                    "endOffset": 3339
+                },
+                "from": {
+                    "file": "/home/lh/firebase_project/Painter/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.14.1/res/values-vi/values-vi.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 1228,
+                        "endColumn": 102,
+                        "endOffset": 1326
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 35,
+                    "startColumn": 4,
+                    "startOffset": 3344,
+                    "endColumn": 61,
+                    "endOffset": 3401
+                },
+                "from": {
+                    "file": "/home/lh/firebase_project/Painter/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.14.1/res/values-vi/values-vi.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 1331,
+                        "endColumn": 61,
+                        "endOffset": 1388
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 36,
+                    "startColumn": 4,
+                    "startOffset": 3406,
+                    "endColumn": 66,
+                    "endOffset": 3468
+                },
+                "from": {
+                    "file": "/home/lh/firebase_project/Painter/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.14.1/res/values-vi/values-vi.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 1393,
+                        "endColumn": 66,
+                        "endOffset": 1455
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 37,
+                    "startColumn": 4,
+                    "startOffset": 3473,
+                    "endColumn": 145,
+                    "endOffset": 3614
+                },
+                "from": {
+                    "file": "/home/lh/firebase_project/Painter/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.14.1/res/values-vi/values-vi.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 1460,
+                        "endColumn": 145,
+                        "endOffset": 1601
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 38,
+                    "startColumn": 4,
+                    "startOffset": 3619,
+                    "endColumn": 103,
+                    "endOffset": 3718
+                },
+                "from": {
+                    "file": "/home/lh/firebase_project/Painter/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.6.0/res/values-vi/values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 340,
+                        "endColumn": 103,
+                        "endOffset": 439
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 39,
+                    "startColumn": 4,
+                    "startOffset": 3723,
+                    "endColumn": 193,
+                    "endOffset": 3912
+                },
+                "from": {
+                    "file": "/home/lh/firebase_project/Painter/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.6.0/res/values-vi/values.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 444,
+                        "endColumn": 193,
+                        "endOffset": 633
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 40,
+                    "startColumn": 4,
+                    "startOffset": 3917,
+                    "endColumn": 126,
+                    "endOffset": 4039
+                },
+                "from": {
+                    "file": "/home/lh/firebase_project/Painter/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.6.0/res/values-vi/values.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 638,
+                        "endColumn": 126,
+                        "endOffset": 760
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 41,
+                    "startColumn": 4,
+                    "startOffset": 4044,
+                    "endColumn": 108,
+                    "endOffset": 4148
+                },
+                "from": {
+                    "file": "/home/lh/firebase_project/Painter/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.6.0/res/values-vi/values.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 765,
+                        "endColumn": 108,
+                        "endOffset": 869
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 42,
+                    "startColumn": 4,
+                    "startOffset": 4153,
+                    "endColumn": 231,
+                    "endOffset": 4380
+                },
+                "from": {
+                    "file": "/home/lh/firebase_project/Painter/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.6.0/res/values-vi/values.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 874,
+                        "endColumn": 231,
+                        "endOffset": 1101
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 43,
+                    "startColumn": 4,
+                    "startOffset": 4385,
+                    "endColumn": 235,
+                    "endOffset": 4616
+                },
+                "from": {
+                    "file": "/home/lh/firebase_project/Painter/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.6.0/res/values-vi/values.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 1106,
+                        "endColumn": 235,
+                        "endOffset": 1337
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 44,
+                    "startColumn": 4,
+                    "startOffset": 4621,
+                    "endColumn": 131,
+                    "endOffset": 4748
+                },
+                "from": {
+                    "file": "/home/lh/firebase_project/Painter/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.6.0/res/values-vi/values.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 1342,
+                        "endColumn": 131,
+                        "endOffset": 1469
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 45,
+                    "startColumn": 4,
+                    "startOffset": 4753,
+                    "endColumn": 132,
+                    "endOffset": 4881
+                },
+                "from": {
+                    "file": "/home/lh/firebase_project/Painter/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.6.0/res/values-vi/values.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 1474,
+                        "endColumn": 132,
+                        "endOffset": 1602
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 46,
+                    "startColumn": 4,
+                    "startOffset": 4886,
+                    "endColumn": 260,
+                    "endOffset": 5142
+                },
+                "from": {
+                    "file": "/home/lh/firebase_project/Painter/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.6.1/res/values-vi/values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 343,
+                        "endColumn": 260,
+                        "endOffset": 599
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 47,
+                    "startColumn": 4,
+                    "startOffset": 5147,
+                    "endColumn": 251,
+                    "endOffset": 5394
+                },
+                "from": {
+                    "file": "/home/lh/firebase_project/Painter/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.6.0/res/values-vi/values.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 1607,
+                        "endColumn": 251,
+                        "endOffset": 1854
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 48,
+                    "startColumn": 4,
+                    "startOffset": 5399,
+                    "endColumn": 126,
+                    "endOffset": 5521
+                },
+                "from": {
+                    "file": "/home/lh/firebase_project/Painter/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.6.0/res/values-vi/values.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 1859,
+                        "endColumn": 126,
+                        "endOffset": 1981
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 49,
+                    "startColumn": 4,
+                    "startOffset": 5526,
+                    "endColumn": 108,
+                    "endOffset": 5630
+                },
+                "from": {
+                    "file": "/home/lh/firebase_project/Painter/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.6.0/res/values-vi/values.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 1986,
+                        "endColumn": 108,
+                        "endOffset": 2090
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 50,
+                    "startColumn": 4,
+                    "startOffset": 5635,
+                    "endColumn": 191,
+                    "endOffset": 5822
+                },
+                "from": {
+                    "file": "/home/lh/firebase_project/Painter/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.6.0/res/values-vi/values.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 2095,
+                        "endColumn": 191,
+                        "endOffset": 2282
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 51,
+                    "startColumn": 4,
+                    "startOffset": 5827,
+                    "endColumn": 131,
+                    "endOffset": 5954
+                },
+                "from": {
+                    "file": "/home/lh/firebase_project/Painter/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.6.0/res/values-vi/values.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 2287,
+                        "endColumn": 131,
+                        "endOffset": 2414
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 52,
+                    "startColumn": 4,
+                    "startOffset": 5959,
+                    "endColumn": 217,
+                    "endOffset": 6172
+                },
+                "from": {
+                    "file": "/home/lh/firebase_project/Painter/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.6.0/res/values-vi/values.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 2419,
+                        "endColumn": 217,
+                        "endOffset": 2632
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 53,
+                    "startColumn": 4,
+                    "startOffset": 6177,
+                    "endColumn": 138,
+                    "endOffset": 6311
+                },
+                "from": {
+                    "file": "/home/lh/firebase_project/Painter/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.6.0/res/values-vi/values.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 2637,
+                        "endColumn": 138,
+                        "endOffset": 2771
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 54,
+                    "startColumn": 4,
+                    "startOffset": 6316,
+                    "endColumn": 178,
+                    "endOffset": 6490
+                },
+                "from": {
+                    "file": "/home/lh/firebase_project/Painter/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.6.0/res/values-vi/values.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 2776,
+                        "endColumn": 178,
+                        "endOffset": 2950
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 55,
+                    "startColumn": 4,
+                    "startOffset": 6495,
+                    "endColumn": 97,
+                    "endOffset": 6588
+                },
+                "from": {
+                    "file": "/home/lh/firebase_project/Painter/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.6.0/res/values-vi/values.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 2955,
+                        "endColumn": 97,
+                        "endOffset": 3048
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 56,
+                    "startColumn": 4,
+                    "startOffset": 6593,
+                    "endColumn": 93,
+                    "endOffset": 6682
+                },
+                "from": {
+                    "file": "/home/lh/firebase_project/Painter/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.6.0/res/values-vi/values.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 3053,
+                        "endColumn": 93,
+                        "endOffset": 3142
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 57,
+                    "startColumn": 4,
+                    "startOffset": 6687,
+                    "endColumn": 109,
+                    "endOffset": 6792
+                },
+                "from": {
+                    "file": "/home/lh/firebase_project/Painter/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.6.0/res/values-vi/values.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 3147,
+                        "endColumn": 109,
+                        "endOffset": 3252
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 58,
+                    "startColumn": 4,
+                    "startOffset": 6797,
+                    "endColumn": 58,
+                    "endOffset": 6851
+                },
+                "from": {
+                    "file": "/home/lh/firebase_project/Painter/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.14.1/res/values-vi/values-vi.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 1606,
+                        "endColumn": 58,
+                        "endOffset": 1660
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 59,
+                    "startColumn": 4,
+                    "startOffset": 6856,
+                    "endColumn": 83,
+                    "endOffset": 6935
+                },
+                "from": {
+                    "file": "/home/lh/firebase_project/Painter/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-vi/values-vi.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 2018,
+                        "endColumn": 83,
+                        "endOffset": 2097
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 60,
+                    "startColumn": 4,
+                    "startOffset": 6940,
+                    "endColumn": 100,
+                    "endOffset": 7036
+                },
+                "from": {
+                    "file": "/home/lh/firebase_project/Painter/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-vi/values-vi.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 2102,
+                        "endColumn": 100,
+                        "endOffset": 2198
+                    }
+                }
+            }
+        ]
+    }
+]
